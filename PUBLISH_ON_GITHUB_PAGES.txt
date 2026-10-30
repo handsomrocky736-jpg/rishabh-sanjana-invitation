@@ -1,0 +1,24 @@
+PUBLISH THIS WEDDING WEBSITE ON GITHUB PAGES
+
+1. Sign in to https://github.com (create a free account if needed).
+2. Create a NEW PUBLIC repository, for example: rishabh-sanjana-invitation
+3. Upload the contents of this ZIP into the repository root:
+   - index.html
+   - .nojekyll
+   - assets/ (if present)
+   - README.md
+4. In the repository, open Settings > Pages.
+5. Under Build and deployment, select "Deploy from a branch".
+6. Select branch "main" and folder "/ (root)", then Save.
+7. Wait for GitHub Pages to publish. The URL will be:
+   https://YOUR-GITHUB-USERNAME.github.io/rishabh-sanjana-invitation/
+
+LONG-TERM CARE
+- Keep the GitHub account active and secure it with two-factor authentication.
+- Keep this ZIP as an offline backup in at least two places.
+- Keep a copy of all original photos and music separately.
+- Avoid putting private information in this public website/repository.
+- Check the site occasionally. No free host can guarantee permanent availability.
+- GitHub Pages is static hosting; this invitation does not need a database or server.
+
+Official guide: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site

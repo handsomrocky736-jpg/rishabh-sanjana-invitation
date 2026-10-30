@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f2e9">
+  <meta name="description" content="The wedding invitation of Rishabh and Sanjana — 20 November 2026, Gwalior.">
+  <title>Rishabh &amp; Sanjana | Wedding Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ivory:#f6f2e9; --paper:#fbf9f4; --olive:#48543c; --olive2:#68745a;
+      --sage:#aab29a; --gold:#ad8c50; --ink:#30352b; --muted:#77796e;
+      --line:rgba(72,84,60,.18); --serif:"Bodoni Moda",Georgia,serif;
+      --sans:"Manrope",Arial,sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--ivory);color:var(--ink);font-family:var(--sans);font-weight:300}
+    a{color:inherit}
+    .welcome{min-height:100svh;display:grid;place-items:center;padding:28px 18px;position:relative;overflow:hidden;background:
+      radial-gradient(ellipse at 50% 45%,rgba(255,255,255,.92),rgba(246,242,233,.82) 58%,rgba(225,224,208,.65)),
+      linear-gradient(135deg,#f7f3ea,#e9eadf)}
+    .welcome:before,.welcome:after{content:"";position:absolute;width:260px;height:260px;border:1px solid rgba(173,140,80,.28);border-radius:50%;pointer-events:none}
+    .welcome:before{top:-160px;left:-120px}.welcome:after{bottom:-170px;right:-100px}
+    .hero-card{width:min(100%,520px);text-align:center;position:relative;padding:clamp(28px,7vw,58px) 24px 42px;border:1px solid rgba(173,140,80,.42);background:rgba(251,249,244,.72);box-shadow:0 20px 70px rgba(48,53,43,.07)}
+    .hero-card:before{content:"";position:absolute;inset:8px;border:1px solid rgba(72,84,60,.12);pointer-events:none}
+    .monogram{font-family:var(--serif);font-size:58px;line-height:1;color:var(--gold);letter-spacing:-7px;margin:0 auto 12px;padding-right:7px}
+    .eyebrow{font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:var(--olive2)}
+    h1,h2,h3{font-family:var(--serif);font-weight:400}
+    .couple-name{font-size:clamp(46px,11vw,68px);line-height:.94;color:var(--olive);margin:20px 0 14px}
+    .amp{color:var(--gold);font-style:italic}
+    .hero-date{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin:22px 0}
+    .hero-photo{width:100%;height:180px;margin:26px auto 22px;position:relative;overflow:hidden;background:linear-gradient(135deg,#d9ddcf,#f1e8d8 50%,#b8c0a9);display:grid;place-items:center;color:#58634c}
+    .hero-photo img{width:100%;height:100%;object-fit:cover;display:block}
+    .photo-placeholder{font-family:var(--serif);font-size:23px;font-style:italic}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid var(--olive);background:var(--olive);color:#fff;text-decoration:none;padding:14px 25px;font:500 10px var(--sans);letter-spacing:.18em;text-transform:uppercase;cursor:pointer;transition:.25s}
+    .btn:hover{background:transparent;color:var(--olive)}
+    .welcome-note{font-family:var(--serif);font-size:17px;font-style:italic;color:var(--muted);margin:20px 0 0}
+    .section{padding:82px 20px;position:relative}
+    .section-inner{width:min(100%,850px);margin:auto;text-align:center}
+    .section-label{font-size:10px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+    .section-title{font-size:clamp(38px,8vw,54px);line-height:1.02;color:var(--olive);margin:0 0 18px}
+    .intro-copy{max-width:540px;margin:0 auto;color:#66695e;font:italic 22px/1.45 var(--serif)}
+    .ornament{display:flex;align-items:center;justify-content:center;gap:14px;color:var(--gold);margin:28px 0}
+    .ornament:before,.ornament:after{content:"";width:54px;height:1px;background:var(--gold);opacity:.55}
+    .countdown-section{background:var(--olive);color:var(--ivory)}
+    .countdown-section .section-title{color:var(--ivory)}
+    .countdown-section .section-label{color:#d5bd8b}
+    .countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:560px;margin:32px auto 0}
+    .time-unit{padding:18px 8px;border:1px solid rgba(246,242,233,.26);background:rgba(255,255,255,.035)}
+    .time-number{font:500 clamp(34px,8vw,48px)/1 var(--serif);color:#f6e8c7}
+    .time-caption{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:#d9ddcf;margin-top:9px}
+    .countdown-note{font-size:12px;color:#d9ddcf;margin-top:18px}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:32px auto 0}
+    .gallery figure{margin:0;aspect-ratio:4/5;background:linear-gradient(145deg,#dce0d2,#eee5d7 60%,#c2c9b5);overflow:hidden;position:relative}
+    .gallery img{width:100%;height:100%;object-fit:cover;display:block}
+    .gallery figcaption{position:absolute;bottom:10px;left:10px;right:10px;color:#fff;text-shadow:0 1px 6px #333;font:italic 16px var(--serif)}
+    .family{background:#eeece2}
+    .family-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:32px}
+    .family-card{padding:28px 16px;border-top:1px solid var(--gold);border-bottom:1px solid var(--line)}
+    .family-card h3{font-size:30px;color:var(--olive);margin:0 0 12px}
+    .family-card p{font-size:14px;line-height:1.8;color:#686b60;margin:0}
+    .events{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:34px;text-align:left}
+    .event-card{background:var(--paper);border:1px solid var(--line);padding:28px 24px;box-shadow:0 12px 35px rgba(48,53,43,.04)}
+    .event-type{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+    .event-card h3{font-size:34px;line-height:1;margin:12px 0;color:var(--olive)}
+    .event-date{font-size:12px;letter-spacing:.06em;color:var(--muted);font-weight:500}
+    .event-venue{font:italic 21px var(--serif);margin:18px 0 5px;color:var(--ink)}
+    .event-address{font-size:12px;line-height:1.6;color:var(--muted);min-height:40px}
+    .event-time{font-size:12px;color:var(--olive);margin:14px 0 20px}
+    .event-card .btn{padding:12px 15px;font-size:9px}
+    .rsvp-section{background:#eeece2}
+    .rsvp-form{max-width:540px;margin:30px auto 0;text-align:left;background:var(--paper);padding:clamp(22px,5vw,38px);border:1px solid var(--line)}
+    .field{margin-bottom:18px}
+    label{display:block;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--olive);margin-bottom:8px}
+    input,select,textarea{width:100%;border:1px solid rgba(72,84,60,.25);background:#fffefa;padding:13px 12px;font:14px var(--sans);color:var(--ink);border-radius:0;outline:none}
+    input:focus,select:focus,textarea:focus{border-color:var(--gold)}
+    textarea{min-height:90px;resize:vertical}
+    .choice-row{display:flex;gap:20px;flex-wrap:wrap}
+    .choice-row label{display:flex;align-items:center;gap:8px;letter-spacing:0;text-transform:none;font-size:13px;color:var(--ink);margin:0}
+    .choice-row input{width:auto;accent-color:var(--olive)}
+    .form-note{font-size:11px;line-height:1.6;color:var(--muted);margin:15px 0}
+    .form-status{font-size:13px;line-height:1.5;margin-top:14px;color:var(--olive)}
+    .closing{background:var(--olive);color:var(--ivory);padding:86px 20px}
+    .closing .section-title{color:var(--ivory)}
+    .closing-copy{max-width:540px;margin:auto;font:italic 23px/1.45 var(--serif);color:#e4e2d6}
+    .signature{font:italic 25px var(--serif);color:#e5d2a9;margin-top:28px}
+    .hashtag{font-size:11px;letter-spacing:.22em;color:#d5bd8b;margin-top:28px}
+    footer{text-align:center;padding:20px;background:#384331;color:#c9cbbf;font-size:9px;letter-spacing:.18em;text-transform:uppercase}
+    .music-control{position:fixed;right:16px;bottom:16px;z-index:5;border:1px solid var(--gold);background:var(--paper);color:var(--olive);padding:11px 14px;font:500 10px var(--sans);letter-spacing:.1em;display:none}
+    @media(max-width:640px){
+      .section{padding:66px 18px}.hero-card{padding-left:18px;padding-right:18px}
+      .gallery{grid-template-columns:repeat(2,1fr)}.gallery figure:last-child{display:none}
+      .family-grid,.events{grid-template-columns:1fr;gap:16px}
+      .event-card{padding:24px 20px}.event-address{min-height:0}
+      .countdown{gap:6px}.time-unit{padding:15px 3px}.time-caption{font-size:8px;letter-spacing:.12em}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+    .date-reveal{padding:88px 20px;text-align:center;background:linear-gradient(145deg,#e9eadf,#f8f5ed 52%,#e4e6d9);position:relative;overflow:hidden}
+    .date-reveal:before,.date-reveal:after{content:"";position:absolute;width:220px;height:220px;border:1px solid rgba(173,140,80,.28);border-radius:50%;pointer-events:none}
+    .date-reveal:before{top:-145px;left:-95px}.date-reveal:after{bottom:-155px;right:-95px}
+    .date-reveal-inner{width:min(100%,680px);margin:auto;position:relative;z-index:1;border-top:1px solid rgba(173,140,80,.55);border-bottom:1px solid rgba(173,140,80,.55);padding:34px 16px}
+    .date-reveal .date-kicker{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--olive2)}
+    .date-reveal h2{font-family:var(--serif);font-size:clamp(36px,8vw,62px);font-weight:400;color:var(--olive);line-height:1.05;margin:18px 0 8px}
+    .date-reveal .date-day{font-family:var(--sans);font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-top:18px}
+    .date-reveal .date-caption{font-size:13px;letter-spacing:.08em;color:var(--muted);margin:12px 0 0}
+    @media (prefers-reduced-motion:no-preference){.date-reveal-inner{animation:dateFade .9s ease both}@keyframes dateFade{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}}
+
+  </style>
+</head>
+<body>
+  <header class="welcome" id="top">
+    <div class="hero-card">
+      <div class="monogram" aria-label="R and S monogram">R<span style="font-size:.55em;vertical-align:20%;padding:0 4px">&amp;</span>S</div>
+      <div class="eyebrow">Together with our families</div>
+      <h1 class="couple-name">Rishabh <span class="amp">&amp;</span><br>Sanjana</h1>
+      <div class="hero-date">Friday · 20 November 2026</div>
+      <div class="hero-photo">
+        <img src="assets/couple-hero.jpg" alt="Rishabh and Sanjana" onerror="this.style.display='none'">
+        <span class="photo-placeholder">Our photograph goes here</span>
+      </div>
+      <a class="btn" href="#invitation">Open Invitation <span aria-hidden="true">↓</span></a>
+      <p class="welcome-note">A celebration of love, family &amp; forever</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="invitation">
+      <div class="section-inner">
+        <div class="section-label">With joyful hearts</div>
+        <h2 class="section-title">The beginning of<br>our forever</h2>
+        <p class="intro-copy">Two hearts, one beautiful journey. Join us as we celebrate the beginning of our forever.</p>
+        <div class="ornament">✦</div>
+        <p style="font-size:12px;letter-spacing:.08em;color:var(--muted)">WE WOULD BE HONOURED BY YOUR PRESENCE</p>
+      </div>
+    </section>
+    <section class="date-reveal" id="date-reveal" aria-label="Wedding date reveal">
+      <div class="date-reveal-inner">
+        <div class="date-kicker">The moment we've been waiting for</div>
+        <h2>Save the Date</h2>
+        <div class="date-day">Friday</div>
+        <h2>20 November 2026</h2>
+        <p class="date-caption">Wedding celebrations begin at 7:00 PM onwards · Gwalior</p>
+      </div>
+    </section>
+
+
+    <section class="section countdown-section">
+      <div class="section-inner">
+        <div class="section-label">The celebration begins in</div>
+        <h2 class="section-title">Until we say “I do”</h2>
+        <div class="countdown" aria-live="polite">
+          <div class="time-unit"><div class="time-number" id="days">--</div><div class="time-caption">Days</div></div>
+          <div class="time-unit"><div class="time-number" id="hours">--</div><div class="time-caption">Hours</div></div>
+          <div class="time-unit"><div class="time-number" id="minutes">--</div><div class="time-caption">Minutes</div></div>
+          <div class="time-unit"><div class="time-number" id="seconds">--</div><div class="time-caption">Seconds</div></div>
+        </div>
+        <p class="countdown-note">20 November 2026 · 7:00 PM · Gwalior, Madhya Pradesh</p>
+      </div>
+    </section>
+
+    <section class="section" id="gallery">
+      <div class="section-inner">
+        <div class="section-label">A few moments of us</div>
+        <h2 class="section-title">Our little gallery</h2>
+        <p class="intro-copy" style="font-size:19px">A glimpse into our journey, captured in moments we will always cherish.</p>
+        <div class="gallery">
+          <figure><img src="assets/gallery-01.jpg" alt="Rishabh and Sanjana photograph 1" onerror="this.style.display='none'"><figcaption>A moment to remember</figcaption></figure>
+          <figure><img src="assets/gallery-02.jpg" alt="Rishabh and Sanjana photograph 2" onerror="this.style.display='none'"><figcaption>Side by side</figcaption></figure>
+          <figure><img src="assets/gallery-03.jpg" alt="Rishabh and Sanjana photograph 3" onerror="this.style.display='none'"><figcaption>Our favourite days</figcaption></figure>
+          <figure><img src="assets/gallery-04.jpg" alt="Rishabh and Sanjana photograph 4" onerror="this.style.display='none'"><figcaption>Just us</figcaption></figure>
+          <figure><img src="assets/gallery-05.jpg" alt="Rishabh and Sanjana photograph 5" onerror="this.style.display='none'"><figcaption>Little joys</figcaption></figure>
+          <figure><img src="assets/gallery-06.jpg" alt="Rishabh and Sanjana photograph 6" onerror="this.style.display='none'"><figcaption>Forever starts here</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section family">
+      <div class="section-inner">
+        <div class="section-label">With the blessings of our families</div>
+        <h2 class="section-title">Our families</h2>
+        <div class="family-grid">
+          <div class="family-card"><h3>Rishabh</h3><p>Mrs. Sunita<br>&amp; Mr. Azad Kumar</p></div>
+          <div class="family-card"><h3>Sanjana</h3><p>Mrs. Rajkumari<br>&amp; Mr. Sujit</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="events">
+      <div class="section-inner">
+        <div class="section-label">Please join us</div>
+        <h2 class="section-title">The celebrations</h2>
+        <div class="events">
+          <article class="event-card">
+            <div class="event-type">The wedding</div>
+            <h3>Wedding Ceremony</h3>
+            <div class="event-date">FRIDAY · 20 NOVEMBER 2026</div>
+            <div class="event-venue">Angoori Garden</div>
+            <div class="event-address">Bada Gaon, Gwalior, Madhya Pradesh</div>
+            <div class="event-time">7:00 PM onwards</div>
+            <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Angoori+Garden%2C+Bada+Gaon%2C+Gwalior%2C+Madhya+Pradesh">Get Directions ↗</a>
+          </article>
+          <article class="event-card">
+            <div class="event-type">The reception</div>
+            <h3>Wedding Reception</h3>
+            <div class="event-date">SUNDAY · 22 NOVEMBER 2026</div>
+            <div class="event-venue">Sahyog Garden</div>
+            <div class="event-address">Near Ramtapura Bridge, Gwalior, Madhya Pradesh</div>
+            <div class="event-time">7:00 PM onwards</div>
+            <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&amp;query=Sahyog+Garden%2C+near+Ramtapura+Bridge%2C+Gwalior%2C+Madhya+Pradesh">Get Directions ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+<section class="closing">
+      <div class="section-inner">
+        <div class="monogram" style="color:#d5bd8b">R<span style="font-size:.55em;vertical-align:20%;padding:0 4px">&amp;</span>S</div>
+        <h2 class="section-title">With love &amp; gratitude</h2>
+        <p class="closing-copy">Your presence will make our celebration even more special. We look forward to celebrating with you.</p>
+        <div class="signature">With love, Rishabh &amp; Sanjana</div>
+        <div class="hashtag">#RISHABHKISANJANA</div>
+      </div>
+    </section>
+  </main>
+  <footer>Rishabh &amp; Sanjana · November 2026 · Gwalior</footer>
+
+  <script>
+    // Wedding countdown: 20 November 2026, 7:00 PM India Standard Time.
+    const weddingDate = new Date("2026-11-20T19:00:00+05:30").getTime();
+    function updateCountdown(){
+      const diff = weddingDate - Date.now();
+      const safe = Math.max(0, diff);
+      const values = {
+        days: Math.floor(safe / 86400000),
+        hours: Math.floor((safe % 86400000) / 3600000),
+        minutes: Math.floor((safe % 3600000) / 60000),
+        seconds: Math.floor((safe % 60000) / 1000)
+      };
+      Object.entries(values).forEach(([id,value]) => document.getElementById(id).textContent = String(value).padStart(2,"0"));
+      if(diff <= 0) document.querySelector(".countdown-note").textContent = "Today is the day. We can't wait to celebrate with you!";
+    }
+    updateCountdown(); setInterval(updateCountdown,1000);
+  </script>
+</body>
+</html>
